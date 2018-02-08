@@ -1,0 +1,33 @@
+{
+  "name": "toworld",
+  "version": "1.0.0",
+  "description": "Api de reserva de hoteles",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Flavio Alfaro",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.17.1",
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.8.4",
+    "crypto-js": "^3.1.9-1",
+    "dateformat": "^2.0.0",
+    "email-validator": "^1.1.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
+    "mongo-xlsx": "^1.0.12",
+    "mongoose": "^4.9.1",
+    "node-regexp": "^0.1.1",
+    "regex": "^0.1.1",
+    "xregexp": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
